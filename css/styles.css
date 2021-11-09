@@ -808,3 +808,6 @@ img {
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-color: var(--accent-color);
 }
+.modal-btn {
+  
+}
