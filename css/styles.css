@@ -549,6 +549,10 @@ img {
   margin-left: 93px;
 }
 
+.footer-mailing-field {
+  display: flex;
+}
+
 .footer-mailing-text {
   font-family: Roboto;
   font-style: normal;
@@ -583,6 +587,7 @@ img {
 .footer-subscribe-button {
   padding: 10px 28px 10px 29px;
   margin-left: 12px;
+  height: 50px;
   background-color: var(--accent-color);
   border: solid var(--accent-color);
   color: #ffffff;
@@ -599,8 +604,7 @@ img {
   align-items: center;
 }
 
-
-.footer-subscribe-icon{
+.footer-subscribe-icon {
   margin-left: 10px;
 }
 /* --------------------PORTFOLIO-------------------- */
@@ -778,7 +782,8 @@ img {
 
 .modal-form-wrapper {
   position: relative;
-  margin-top: 6px;
+  margin-top: 4px;
+  display: block;
 }
 
 .modal-form-input {
