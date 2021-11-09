@@ -798,7 +798,8 @@ img {
   content: "";
   width: 18px;
   height: 18px;
-  border: 1px solid #212121;
+  border: 2px solid #212121;
+  border-radius: 4px;
   cursor: pointer;
   margin-right: 7px;
   font-family: Roboto;
@@ -809,10 +810,9 @@ img {
   letter-spacing: 0.03em;
 }
 
-.modal-form-checkbox-label::before:focus {
-  background-image: url(../images/icon-check.svg);
-}
-
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
+  background-image: url(../images/icon-check.svg);
   background-color: var(--accent-color);
+  border-radius: 2px;
+  border: 1px solid var(--accent-color);
 }
